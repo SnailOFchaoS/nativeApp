@@ -1,0 +1,67 @@
+import {StyleSheet} from 'react-native';
+
+export const styles = StyleSheet.create({
+	container: {
+		display: 'flex',
+		flexDirection: 'column',
+		gap: 10,
+	},
+	inputLine: {
+		display: 'flex',
+		flexDirection: 'row',
+		gap: 10,
+		alignItems: 'center',
+		justifyContent: 'center',
+		width: '100%',
+	},
+	inputLine_input: {
+		width: 200,
+		height: 40,
+		borderWidth: 1,
+		borderColor: 'black',
+		borderRadius: 10,
+		padding: 10,
+		backgroundColor: 'white',
+		color: 'black',
+		fontSize: 16,
+		fontWeight: 'bold',
+		textAlign: 'center',
+		textAlignVertical: 'center',
+	}, 
+	inputLine_button: {
+		width: 'auto',
+		height: 40,
+		backgroundColor: 'blue',
+		alignItems: 'center',
+		justifyContent: 'center',
+		borderRadius: 10,
+		padding: 10,
+	},
+	inputLine_button_text: {
+		fontSize: 16,
+		color: 'white',
+		textAlign: 'center',
+	},
+	note: {
+		display: 'flex',
+		flexDirection: 'row',
+		gap: 10,
+		alignItems: 'center',
+		justifyContent: 'center',
+		width: '100%',
+	},
+	note_button: {
+		width: 'auto',
+		height: 40,
+		backgroundColor: 'red',
+		alignItems: 'center',
+		justifyContent: 'center',
+		borderRadius: 10,
+		padding: 10,
+	},
+	note_button_text: {
+		fontSize: 16,
+		color: 'white',
+		textAlign: 'center',
+	},
+});
